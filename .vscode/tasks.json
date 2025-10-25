@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "gcc build hello",
+      "type": "shell",
+      "command": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+      "args": [
+        "hello.c",
+        "-o",
+        "hello.exe",
+        "-v"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
